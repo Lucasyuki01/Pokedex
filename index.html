@@ -1,44 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- links -->
-    <link rel="icon" href="./favicons/psyduck.png">
-    <link rel="stylesheet" href="./css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Main JS -->
-    <script defer src=".js/script.js"></script>
+  <!-- Links -->
+  <link rel="icon" href="./favicons/favicon-16x16.png">
+  <link rel="stylesheet" href="./css/style.css">
 
-    <title>Pokedex</title>
+  <!-- Main JS -->
+  <script defer src="./js/script.js"></script>
+
+  <title>Pokédex</title>
 </head>
-
 <body>
-    <main>
-        <img src="#" alt="pokemon" class="pokemon__image">
+  <main>
+    <div class="left">
+      <img src="#" alt="pokemon" class="pokemon__image">
 
-        <h1 class="pokemon__data">
-            <span class="pokemon__number"></span> -
-            <span class="pokemon__name"></span>
-        </h1>
-        
-        <form class="form">
-            <input
-            type="search"
-            class="input__search"
-            placeholder="Name or Number"
-            required
-            />
-        </form>
+      <h1 class="pokemon__data">
+        <span class="pokemon__number"></span> -
+        <span class="pokemon__name"></span>
+      </h1>
 
-        <div class="buttons">
-            <button class="button btn-prev">Prev &lt;</button>
-            <button class="button btn-next">Next &gt;</button>
-        </div>
+      <form class="form">
+        <input
+          type="search"
+          class="input__search"
+          placeholder="Name or Number"
+          required
+        />
+      </form>
 
-        <img src="./images/pokedex.png" alt="pokedex" class="pokedex">
-    </main>
+      <div class="buttons">
+        <button class="button btn-prev">Prev &lt;</button>
+        <button class="button btn-next">Next &gt;</button>
+      </div>
+
+      <img src="./images/pokedex-esquerda.png" alt="pokedex-esquerda" class="pokedex-esquerda">
+    </div>
+
+    <div class="right">
+      <div class="div-grafico">
+        <canvas id="statsChart" width="auto" height="auto" class="grafico"></canvas>
+      </div>
+
+      <img src="./images/pokedex-direita.png" alt="pokedex-direita" class="pokedex-direita">
+    </div>
+  </main>
 
 </body>
 </html>
