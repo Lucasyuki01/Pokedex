@@ -1,5 +1,5 @@
 # Pokédex
-Link: https://lucasyuki01.github.io/Pokedex/
+Link para acessar a pokedéx: https://lucasyuki01.github.io/Pokedex/
 
 Uma aplicação web interativa que permite aos usuários procurar Pokémon pelo nome ou número e visualizar suas estatísticas em um gráfico de radar.
 
