@@ -1,8 +1,5 @@
-Aqui está um README bem documentado para o seu projeto de Pokédex:
-
----
-
 # Pokédex
+Link: https://lucasyuki01.github.io/Pokedex/
 
 Uma aplicação web interativa que permite aos usuários procurar Pokémon pelo nome ou número e visualizar suas estatísticas em um gráfico de radar.
 
