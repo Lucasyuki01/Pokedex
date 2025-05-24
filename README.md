@@ -1,60 +1,61 @@
 # Pokédex
-Link para acessar a pokedéx: https://lucasyuki01.github.io/Pokedex/
+Access the Pokédex here: https://lucasyuki01.github.io/Pokedex/
 
-Uma aplicação web interativa que permite aos usuários procurar Pokémon pelo nome ou número e visualizar suas estatísticas em um gráfico de radar.
+An interactive web application that allows users to search for Pokémon by name or number and view their stats in a radar chart.
 
-## Índice
+## Table of Contents
 
-- [Visão Geral](#visão-geral)
-- [Demonstração](#demonstração)
-- [Funcionalidades](#funcionalidades)
-- [Instalação](#instalação)
-- [Uso](#uso)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
+- [Overview](#overview)
+- [Demo](#demo)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Visão Geral
+## Overview
 
-Esta Pokédex foi desenvolvida utilizando HTML, CSS e JavaScript. A aplicação consome a [PokeAPI](https://pokeapi.co/) para obter dados sobre os Pokémon e exibe esses dados de forma visualmente atraente.
+This Pokédex was developed using HTML, CSS, and JavaScript. The application consumes data from the [PokeAPI](https://pokeapi.co/) and displays it in a visually engaging way.
 
-## Demonstração
+## Demo
 
-Você pode acessar a Pokédex online [aqui](#).
+You can access the live Pokédex [here](https://lucasyuki01.github.io/Pokedex/).
 
-## Funcionalidades
+## Features
 
-- Pesquisar Pokémon pelo nome ou número.
-- Navegar pelos Pokémon usando botões de próximo e anterior.
-- Exibir uma imagem animada do Pokémon.
-- Mostrar nome, número, tipo, peso e altura do Pokémon.
-- Visualizar as estatísticas do Pokémon em um gráfico de radar.
+- Search for Pokémon by name or number.
+- Navigate through Pokémon using Next and Previous buttons.
+- Display an animated image of the Pokémon.
+- Show the Pokémon's name, number, type, weight, and height.
+- View Pokémon stats in a radar chart.
 
-## Instalação
+## Installation
 
-Para executar o projeto localmente, siga estas etapas:
+To run the project locally, follow these steps:
 
-1. Clone este repositório:
+1. Clone this repository:
    ```bash
-   git clone https://github.com/seu-usuario/pokedex.git
-   ```
-2. Navegue até o diretório do projeto:
-   ```bash
-   cd pokedex
+   git clone https://github.com/Lucasyuki01/Pokedex.git
    ```
 
-3. Abra o arquivo `index.html` em seu navegador:
+2. Navigate to the project directory:
+   ```bash
+   cd Pokedex
+   ```
+
+3. Open the `index.html` file in your browser:
    ```bash
    open index.html
    ```
 
-## Uso
+## Usage
 
-1. Digite o nome ou número de um Pokémon na barra de pesquisa e pressione Enter.
-2. Navegue pelos Pokémon utilizando os botões "Prev" e "Next".
-3. Veja a imagem do Pokémon, nome, número, tipo, peso, altura e suas estatísticas no gráfico de radar.
+1. Enter a Pokémon's name or number in the search bar and press Enter.
+2. Use the "Prev" and "Next" buttons to browse through Pokémon.
+3. View the Pokémon's image, name, number, type, weight, height, and stats on the radar chart.
 
-## Estrutura do Projeto
+## Project Structure
 
 ```
 pokedex/
@@ -70,26 +71,30 @@ pokedex/
 └── README.md
 ```
 
-- `css/style.css`: Contém os estilos para a Pokédex.
-- `images/`: Contém as imagens usadas no projeto.
-- `js/script.js`: Contém o código JavaScript que faz chamadas à PokeAPI e manipula o DOM.
-- `index.html`: A estrutura HTML da Pokédex.
+- `css/style.css`: Contains styling for the Pokédex.
+- `images/`: Contains project images.
+- `js/script.js`: Contains JavaScript code for interacting with the PokeAPI and manipulating the DOM.
+- `index.html`: The HTML structure of the Pokédex.
 
-## Contribuição
+## Contributing
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
+Contributions are welcome! Feel free to open issues and submit pull requests.
 
-1. Faça um fork do projeto.
-2. Crie uma nova branch:
+1. Fork the project.
+2. Create a new branch:
    ```bash
-   git checkout -b feature/nova-funcionalidade
+   git checkout -b feature/new-feature
    ```
-3. Faça suas alterações e commit:
+3. Make your changes and commit:
    ```bash
-   git commit -m 'Adiciona nova funcionalidade'
+   git commit -m 'Add new feature'
    ```
-4. Faça push para a branch:
+4. Push to the branch:
    ```bash
-   git push origin feature/nova-funcionalidade
+   git push origin feature/new-feature
    ```
-5. Abra um pull request.
+5. Open a pull request.
+
+## License
+
+This project is open-source and available under the MIT License.
